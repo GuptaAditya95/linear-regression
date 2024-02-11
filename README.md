@@ -1,2 +1,2 @@
 # linear-regression
-Here i write code about Linear Regression and how it works
+Here i have created a complete CI pipeline for performing linear regression
