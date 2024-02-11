@@ -1,13 +1,13 @@
 set -e
 
 install:
-         pip install --upgrade pip &&\
-          pip install -r requirements.txt
+	pip install --upgrade pip && \
+	pip install -r requirements.txt
 
 lint:
-        pylint --disable=R,C,E1120 linear.py
+	pylint --disable=R,C,E1120 linear.py
 
 format:
-        black *.py
+	black *.py
 
-all: install lint 
+all: install lint
